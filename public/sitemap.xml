@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://paulcapestany.com/</loc>
+    <lastmod>2015-09-03T12:25:25-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://paulcapestany.com/about/</loc>
+    <lastmod>2015-09-03T12:25:25-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://paulcapestany.com/post/on-the-hill/</loc>
+    <lastmod>2012-05-21T13:16:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://paulcapestany.com/post/goodbye-baltimore-hello-san-francisco/</loc>
+    <lastmod>2011-06-25T12:29:48-07:00</lastmod>
+  </url>
+  
+</urlset>
