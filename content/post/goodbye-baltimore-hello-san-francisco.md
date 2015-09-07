@@ -1,6 +1,6 @@
 +++
-Categories = ["Personal"]
 Description = ""
+Categories = ["Blog"]
 Tags = ["Baltimore", "San Francisco", "startups", "culture", "entrepreneurship"]
 date = "2011-06-25T12:29:48-07:00"
 menu = "main"

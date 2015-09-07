@@ -1,6 +1,6 @@
 +++
-Categories = ["Personal"]
 Description = ""
+Categories = ["Blog"]
 Tags = ["startups"]
 date = "2012-05-21T13:16:03-07:00"
 menu = "main"
@@ -10,7 +10,7 @@ title = "On the Hill"
 
 I recently had the chance to meet with various senators, congress members, and the United States’ Chief Technology Officer to be a part of discussions surrounding the increasingly hot topic of privacy vis-à-vis technology, and more specifically—mobile apps.
 
-![ACT Fly-In Group Photo](/images/act_flyin_whitehouse_paul_capestany.jpg)
+<img class="materialboxed" src="/images/act_flyin_whitehouse_paul_capestany.jpg" alt="ACT Fly-In Group Photo" data-caption="ACT Fly-In Group Photo">
 
 The great folks at the Association for Competitive Technology ([ACT][e7f4787d]) had reached out to me after seeing what I was working on to ask if I’d join them on Capitol Hill. Their [blog post][78326c56] summarizes the thrust of what we were there for nicely. In short, this is the message ACT wants to spread:
 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blah on Paul Capestany</title>
+    <link>http://paulcapestany.com/tags/blah/</link>
+    <description>Recent content in Blah on Paul Capestany</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2015 15:03:30 -0700</lastBuildDate>
+    <atom:link href="http://paulcapestany.com/tags/blah/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Another Post</title>
+      <link>http://paulcapestany.com/2015/09/07/another-post/</link>
+      <pubDate>Mon, 07 Sep 2015 15:03:30 -0700</pubDate>
+      
+      <guid>http://paulcapestany.com/2015/09/07/another-post/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s see if code highlighting works. This is how simple it is to create a server with Go:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;main&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;
+	&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;io&amp;quot;&lt;/span&gt;
+	&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;net/http&amp;quot;&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color: #66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;hello&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;w&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;ResponseWriter&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;r&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;Request&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
+	&lt;span style=&#34;color: #a6e22e&#34;&gt;io&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;WriteString&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color: #66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
+	&lt;span style=&#34;color: #a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;HandleFunc&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;hello&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;
+	&lt;span style=&#34;color: #a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;ListenAndServe&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;:8000&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;nil&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Some more normal text here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test Post</title>
+      <link>http://paulcapestany.com/2015/09/07/test-post/</link>
+      <pubDate>Mon, 07 Sep 2015 15:00:17 -0700</pubDate>
+      
+      <guid>http://paulcapestany.com/2015/09/07/test-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at ipsum urna. Donec tincidunt massa nec purus convallis lobortis. Mauris sed ipsum neque. Quisque dui magna, semper non facilisis eu, dapibus at enim. Proin nibh lorem, dictum non lacinia eu, posuere ac lectus. Integer varius, nisl eget rhoncus luctus, massa odio convallis nisi, eget rutrum lorem libero laoreet tortor. Pellentesque eu facilisis metus. In hac habitasse platea dictumst. Fusce rutrum bibendum ante, eget ornare urna tempor vitae.&lt;/p&gt;
+
+&lt;p&gt;Duis in velit magna, vitae accumsan magna. Morbi vel nisl non mi convallis hendrerit at et lectus. Nam eget nibh erat, sed sodales ipsum. Donec in enim in justo elementum iaculis a a nulla. Nam justo nulla, lacinia sit amet ornare sit amet, ornare non neque. Morbi nisi eros, dignissim ac convallis ut, aliquam eget ipsum. In euismod dui non risus imperdiet sagittis. Ut sodales aliquam leo, eget tempor velit tincidunt sit amet. Praesent ac risus eu turpis pulvinar tempus vitae malesuada eros. Nulla fermentum diam at eros bibendum sed pulvinar tellus ornare.&lt;/p&gt;
+
+&lt;p&gt;Integer sit amet interdum tortor. Nunc sed orci leo. Curabitur sit amet sagittis tortor. Suspendisse potenti. Maecenas mi massa, tempus nec sollicitudin eget, venenatis ut urna. Curabitur cursus, libero ac bibendum ornare, purus sapien bibendum est, ut gravida erat magna quis tortor. Vivamus sed bibendum massa.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

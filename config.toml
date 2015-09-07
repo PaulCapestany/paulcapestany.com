@@ -1,7 +1,7 @@
-baseurl = "http://paulcapestany.com/"
+baseurl = "http://paulcapestany.com"
 languageCode = "en-us"
 title = "Paul Capestany"
-theme = "hugo-uno"
+theme = "material-design"
 canonifyurls = true
 author = "Paul Capestany"
 
@@ -21,8 +21,14 @@ author = "Paul Capestany"
   flickr = "pcapestany"
   email = "capestany@gmail.com"
   description = "Ex-neuroscience researcher turned techie startupper, recovering event organizer, vegan, self-taught programmer, gym rat, obsessive optimizer, enjoys good beer…"
-  # cv = "/pages/cv"
-  # muut = "fredrikloch"
   linkedin = "PaulCapestany"
-  cover = "/images/background_photo.jpg"
-  logo = "/images/paul_capestany.png"
+  # cover = "/images/background_photo.jpg"
+  # logo = "/images/paul_capestany.png"
+  headerCover = "images/background_photo.jpg" # optional
+  footerCover = "images/footer.jpg" # optional
+
+  MetaDataFormat = "toml"
+  paginate = 9 # To specify a multiple of 3
+
+  [permalinks]
+    post = "/:year/:month/:day/:title/" # optional

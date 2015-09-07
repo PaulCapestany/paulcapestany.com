@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Personal on Paul Capestany </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://paulcapestany.com/categories/personal/</link>
+    <title>Blog on Paul Capestany</title>
+    <link>http://paulcapestany.com/categories/blog/</link>
+    <description>Recent content in Blog on Paul Capestany</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Mon, 21 May 2012 13:16:03 PDT</updated>
+    <lastBuildDate>Mon, 21 May 2012 13:16:03 -0700</lastBuildDate>
+    <atom:link href="http://paulcapestany.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On the Hill</title>
-      <link>http://paulcapestany.com/post/on-the-hill/</link>
-      <pubDate>Mon, 21 May 2012 13:16:03 PDT</pubDate>
+      <link>http://paulcapestany.com/2012/05/21/on-the-hill/</link>
+      <pubDate>Mon, 21 May 2012 13:16:03 -0700</pubDate>
       
-      <guid>http://paulcapestany.com/post/on-the-hill/</guid>
+      <guid>http://paulcapestany.com/2012/05/21/on-the-hill/</guid>
       <description>&lt;p&gt;I recently had the chance to meet with various senators, congress members, and the United States’ Chief Technology Officer to be a part of discussions surrounding the increasingly hot topic of privacy vis-à-vis technology, and more specifically—mobile apps.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://paulcapestany.com/images/act_flyin_whitehouse_paul_capestany.jpg&#34; alt=&#34;ACT Fly-In Group Photo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;materialboxed&#34; src=&#34;http://paulcapestany.com/images/act_flyin_whitehouse_paul_capestany.jpg&#34; alt=&#34;ACT Fly-In Group Photo&#34; data-caption=&#34;ACT Fly-In Group Photo&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;The great folks at the Association for Competitive Technology (&lt;a href=&#34;http://actonline.org/&#34; title=&#34;ACT Online&#34;&gt;ACT&lt;/a&gt;) had reached out to me after seeing what I was working on to ask if I’d join them on Capitol Hill. Their &lt;a href=&#34;http://actonline.org/2012/05/act-fly-in-2-2/&#34; title=&#34;ACT Fly-In&#34;&gt;blog post&lt;/a&gt; summarizes the thrust of what we were there for nicely. In short, this is the message ACT wants to spread:&lt;/p&gt;
 
@@ -31,10 +31,10 @@
     
     <item>
       <title>Goodbye Baltimore. Hello San Francisco.</title>
-      <link>http://paulcapestany.com/post/goodbye-baltimore-hello-san-francisco/</link>
-      <pubDate>Sat, 25 Jun 2011 12:29:48 PDT</pubDate>
+      <link>http://paulcapestany.com/2011/06/25/goodbye-baltimore.-hello-san-francisco./</link>
+      <pubDate>Sat, 25 Jun 2011 12:29:48 -0700</pubDate>
       
-      <guid>http://paulcapestany.com/post/goodbye-baltimore-hello-san-francisco/</guid>
+      <guid>http://paulcapestany.com/2011/06/25/goodbye-baltimore.-hello-san-francisco./</guid>
       <description>&lt;p&gt;I came to Baltimore 10 years ago to study neuroscience at Johns Hopkins. It was only shortly after graduating that I started to realize just how slow the pace of academic research was—between waiting for experiments in the lab I began craving to work on something that was faster-paced, yet still had the potential to make a big impact. Eventually I decided to do a 180° and threw myself into the tech world, founding a web startup with a professor and a college buddy who’d also stayed in Charm City. Long story short, after 4 years of the company not really going in the direction I’d envisioned, I decided to pull the plug on it. Failure taught me a lot of lessons, and amongst them I learned the hard way that what I was attempting to do in Baltimore was an unnecessarily difficult uphill battle.&lt;/p&gt;
 
 &lt;p&gt;So I’m headed off towards Silicon Valley.&lt;/p&gt;

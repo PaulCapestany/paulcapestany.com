@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Entrepreneurship on Paul Capestany </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>Entrepreneurship on Paul Capestany</title>
     <link>http://paulcapestany.com/tags/entrepreneurship/</link>
+    <description>Recent content in Entrepreneurship on Paul Capestany</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Sat, 25 Jun 2011 12:29:48 PDT</updated>
+    <lastBuildDate>Sat, 25 Jun 2011 12:29:48 -0700</lastBuildDate>
+    <atom:link href="http://paulcapestany.com/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Goodbye Baltimore. Hello San Francisco.</title>
-      <link>http://paulcapestany.com/post/goodbye-baltimore-hello-san-francisco/</link>
-      <pubDate>Sat, 25 Jun 2011 12:29:48 PDT</pubDate>
+      <link>http://paulcapestany.com/2011/06/25/goodbye-baltimore.-hello-san-francisco./</link>
+      <pubDate>Sat, 25 Jun 2011 12:29:48 -0700</pubDate>
       
-      <guid>http://paulcapestany.com/post/goodbye-baltimore-hello-san-francisco/</guid>
+      <guid>http://paulcapestany.com/2011/06/25/goodbye-baltimore.-hello-san-francisco./</guid>
       <description>&lt;p&gt;I came to Baltimore 10 years ago to study neuroscience at Johns Hopkins. It was only shortly after graduating that I started to realize just how slow the pace of academic research was—between waiting for experiments in the lab I began craving to work on something that was faster-paced, yet still had the potential to make a big impact. Eventually I decided to do a 180° and threw myself into the tech world, founding a web startup with a professor and a college buddy who’d also stayed in Charm City. Long story short, after 4 years of the company not really going in the direction I’d envisioned, I decided to pull the plug on it. Failure taught me a lot of lessons, and amongst them I learned the hard way that what I was attempting to do in Baltimore was an unnecessarily difficult uphill battle.&lt;/p&gt;
 
 &lt;p&gt;So I’m headed off towards Silicon Valley.&lt;/p&gt;
